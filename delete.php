@@ -1,5 +1,6 @@
 <?php
-$conn=mysqli_connect("localhost:3306", "root", "Low@@2004", "sits_stud");//connect db
+//connect db
+$conn=mysqli_connect("Server_name", "user_name", "password", "DataBase_Name");
 if(!$conn){
     die("connection failed!:" .mysqli_connect_error());
 }
