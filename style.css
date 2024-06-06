@@ -1,0 +1,59 @@
+body{
+    background:skyblue;
+}
+h1,h3{
+    color: rgb(23, 103, 195);
+}
+.Heading{
+    text-align: center;
+    background: skyblue;
+}
+.Heading img{
+    border-radius: 50px;
+}
+#Logo{
+    height: 60px;
+    
+}
+.details{
+    text-align: center;
+    background: skyblue;
+    
+}
+button{
+    background-color: rgb(23, 103, 195);
+    margin-top: 10px;
+    color: skyblue;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+hr{
+    border-color: rgb(23, 103, 195);
+}
+fieldset{
+    border-color: rgb(23, 103, 195);
+    
+}
+input{
+    border-radius: 5px;
+    border:0px;
+    background-color: rgb(176, 217, 233);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+.but{
+    text-align: center;
+}
+.form2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
