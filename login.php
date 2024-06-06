@@ -1,8 +1,8 @@
 <?php
-// $servername = "your server_name";
-// $username = "your user_name";
-// $password = "SQl_password";
-// $db="DtaBase_name";
+ $servername = "your server_name";
+ $username = "your user_name";
+ $password = "SQl_password";
+ $db="DtaBase_name";
 if ($_SERVER["REQUEST_METHOD"] == "POST")
  {
     $ID=$_POST["ID"];
