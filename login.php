@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost:3306";
-$username = "root";
-$password = "Low@@2004";
-$db="sits_stud";
+// $servername = "your server_name";
+// $username = "your user_name";
+// $password = "SQl_password";
+// $db="DtaBase_name";
 if ($_SERVER["REQUEST_METHOD"] == "POST")
  {
     $ID=$_POST["ID"];
@@ -13,28 +13,6 @@ $result = mysqli_query($conn, $sql);
 
 
 ?>
-<!--<table>
-    <tr>
-        <th>Sno</th>
-        <th>Name</th>
-        <th>Email id</th>
-        <th>Mobile</th>
-    </tr>
-    <?php/*
-    if (mysqli_num_rows($result) > 0) {
-        while($row = mysqli_fetch_assoc($result)) {
-            echo "<tr>";
-            echo"<td>".$row['Sno'];
-            echo "<td>" . $row['SID'] . "</td>";
-            echo "<td>" . $row['Sname'] . "</td>";
-            echo "<td>" . $row['Semail'] . "</td>";
-            echo "</tr>";
-        }
-    } else {
-        echo "No results found";
-    }*/
-    ?>
-</table> -->
 
 <?php
 
